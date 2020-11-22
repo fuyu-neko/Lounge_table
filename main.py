@@ -220,6 +220,7 @@ async def on_message(message):
             send_message_content = "!update" + " " + type + " " + member1 + ", " + member2 + ", " + member3 + ", " + member4 + ", " + member5 + ", " + member6 + ", " + member7 + ", " + member8 + ", " + member9 + ", " + member10 + ", " + member11 + ", " + member12 + "; " + num
 
             await message.channel.send(send_message_content)
+    await bot.process_commands(message) 
 
 
 bot.run("")
