@@ -1,0 +1,39 @@
+                    if flag == "yes":
+                        trim_img1 = img[40:85, 280:425]  # member1
+                        trim_img2 = img[80:120, 280:425]  # member2
+                        trim_img3 = img[125:165, 280:425]  # member3
+                        trim_img4 = img[160:200, 280:425]  # member4
+                        trim_img5 = img[205:245, 280:425]  # member5
+                        trim_img6 = img[245:285, 280:425]  # member6
+                        trim_img7 = img[280:320, 280:425]  # member7
+                        trim_img8 = img[325:365, 280:425]  # member8
+                        trim_img9 = img[365:405, 280:425]  # member9
+                        trim_img10 = img[400:440, 280:425]  # member10
+                        trim_img11 = img[440:480, 280:425]  # member11
+                        trim_img12 = img[475:515, 280:425]  # member12
+                    elif tabletype == "yes":
+                        trim_img1 = img[40:85, 280:450]  # member1
+                        trim_img2 = img[80:120, 280:450]  # member2
+                        trim_img3 = img[125:165, 280:450]  # member3
+                        trim_img4 = img[160:200, 280:450]  # member4
+                        trim_img5 = img[205:245, 280:450]  # member5
+                        trim_img6 = img[245:285, 280:450]  # member6
+                        trim_img7 = img[280:320, 280:450]  # member7
+                        trim_img8 = img[325:365, 280:450]  # member8
+                        trim_img9 = img[365:405, 280:450]  # member9
+                        trim_img10 = img[400:440, 280:450]  # member10
+                        trim_img11 = img[440:480, 280:450]  # member11
+                        trim_img12 = img[475:515, 280:450]  # member12.
+                    else:
+                        trim_img1 = img[40:85, 280:470]  # member1
+                        trim_img2 = img[80:120, 280:470]  # member2
+                        trim_img3 = img[125:165, 280:470]  # member3
+                        trim_img4 = img[160:200, 280:470]  # member4
+                        trim_img5 = img[205:245, 280:470]  # member5
+                        trim_img6 = img[245:285, 280:470]  # member6
+                        trim_img7 = img[280:320, 280:470]  # member7
+                        trim_img8 = img[325:365, 280:470]  # member8
+                        trim_img9 = img[365:405, 280:470]  # member9
+                        trim_img10 = img[400:440, 280:470]  # member10
+                        trim_img11 = img[440:480, 280:470]  # member11
+                        trim_img12 = img[475:515, 280:470]  # member12
